@@ -1,0 +1,88 @@
+.navbarParent {
+    font-size: 16px;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em;
+    height: 60px;
+    box-shadow: 0 0 20px grey;
+    /* background-color:black; */
+    z-index: 1000; 
+  }
+  
+  .navbarLogo {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    /* margin-top: 15px; */
+  
+  }
+  
+  .navbarTitle {
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+    
+    
+  }  
+  .navbarLinks a {
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .navbarLinks a:hover {
+    text-decoration: none ;
+    color: white;
+  }
+  .bDiv{
+    display: flex;
+    gap: 20px;
+  }
+  .navbarButton{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -5px;
+    cursor: pointer;
+    
+  }
+  
+  
+  
+  @media (max-width: 450px) {
+    .navbarParent {
+      font-size: 10px;
+      padding: 0.8em;
+    }
+  
+    .navbarTitle {
+      font-size: 1.5em; 
+    }
+  
+    
+  }
+  
+  @media (max-width: 320px) {
+    .navbarParent {
+      font-size: 8px;
+      padding: 0.6em; 
+    }
+  
+    .navbarTitle {
+      font-size: 1.2em; 
+    }
+  
+  
+  }

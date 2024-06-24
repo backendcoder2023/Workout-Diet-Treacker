@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content:end;
+    /* height: 20px; */
+
+    
+    margin-top: 5px;
+  }
+.but{
+    background-color: transparent;
+    border: none;
+    width: 35px;
+  }
+.but:hover{
+    border-bottom: 2px solid black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}

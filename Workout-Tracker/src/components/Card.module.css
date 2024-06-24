@@ -1,0 +1,59 @@
+
+  
+  
+  .wholebox {
+    background-color: antiquewhite;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 20px white;
+    /* width: 100%;  */
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .phodiv {
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .drow {
+    width: 50vw;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 300px;
+    height: auto; 
+    border-radius: 4px;
+  }
+  
+  .watch {
+    justify-self: center; 
+  }
+  
+  .seconddiv {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .para {
+    margin-bottom: 8px;
+  }
+  
+  .vediolink {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .vediolink:hover {
+    background-color: #0056b3;
+  }
+  

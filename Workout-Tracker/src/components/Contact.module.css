@@ -1,0 +1,341 @@
+body{
+    background-color:rgb(180, 175, 175);
+    width: 100vw;
+    /* height: 1400px; */
+    
+}
+.contect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100vw; */
+    margin-top: 30px;
+    box-shadow: 0 0 10px;
+    background-color: #CCCCCC;
+    /* margin-left: 240px; */
+}
+.bigboss{
+    display: flex;
+}
+.map{
+    margin-top: 30px;
+    width: 460px;
+}
+
+
+.contect .title{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 2rem;
+    letter-spacing: .4rem;
+    text-align: center;
+    height: 3rem;
+    width: 46rem;
+    margin: 1rem;
+    color: black;
+}
+
+.contect .subtitle{
+    color: #888585;
+    font-style: italic;
+    margin-left: 20rem;
+}
+.contectCan{
+height:12rem ;
+width: 50rem;
+padding: 2rem 0 2rem 0;
+display: flex;
+}
+.contectDetails{
+    height: 20rem;
+    width: 22rem;
+    margin-left: 60px;
+
+}
+.nav{
+    display: flex;
+    justify-content:end;
+    width: 98vw;
+    margin-top: 5px;
+  }
+.but{
+    background-color: transparent;
+    border: none;
+    width: 50px;
+  }
+  .but:hover{
+    border-bottom: 2px solid black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+h3{
+    margin: 0%;
+}
+.emoji{
+    display: block;
+    text-align: left;
+}
+
+.inp{
+    height: 2.53rem;
+    width:10rem ;
+    border: 1px solid  #CCCCCC;
+    margin-bottom: .35rem;
+    transition: all 0.5s ease-in-out;
+    
+}
+.inp:hover{
+    border: 2px solid black;
+    background-color: #CCCCCC;
+    color: black;
+}
+.bigInput{
+    height: 2.53rem;
+    width: 20.3rem;
+    border: 1px solid  #CCCCCC;
+    padding: 1rem ;
+    margin-bottom: .35rem;
+    transition: all 0.5 ease-in-out;
+
+}
+.bigInput:hover{
+    border: 2px solid black;
+    background-color: #CCCCCC;
+    color: black;
+}
+
+
+.buttonBtn{
+    border: none;
+    background-color: transparent;
+}
+.buttonBtn:hover{
+    color: white;
+    background-color: black;
+}
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.pricing .sectionHeader {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing .pricingContents {
+	width: 100%;
+	max-width: 1068px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px 25px;
+	margin: 0px auto;
+}
+
+.pricingContents .pricingCard {
+	position: relative;
+	text-align: center;
+	background-color:yellow;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	transition: all 0.3s;
+}
+
+.pricingContents .pricingCard:hover {
+	transform: scale(1.04);
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+
+.pricingCard .pricingCardHeader {
+	width: 100%;
+	height: 140px;
+	position: relative;
+	border-radius: 10px 10px 0px 0px;
+	background-color: orange;
+}
+
+.pricingCardHeader .pricingCardTitle {
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	top: 30px;
+}
+
+.pricingCardHeader .priceCircle {
+	width: 120px;
+	height: 120px;
+	background-color: rgb(190, 177, 177);
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 5px solid orange;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.pricingCardHeader .priceCircle .price {
+	font-size: 28px;
+	font-weight: bold;
+	color:black;
+}
+
+.pricingCardHeader .priceCircle .price i {
+	font-size: 18px;
+	font-style: normal;
+}
+
+.pricingCardHeader .priceCircle .desc {
+	font-size: 12px;
+	font-weight: bold;
+	color: gray;
+}
+
+.pricingCard .pricingCardBody {
+	padding: 25px 0px 40px;
+	background-color:rgb(193, 186, 186);
+}
+
+.pricingCardBody ul {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pricingCardBody ul li {
+	list-style: none;
+	font-size: 15px;
+	color: black;
+}
+
+.pricingCardBody ul li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.pricingCardBody ul li i {
+	color: yellow;
+	margin-right: 8px;
+}
+
+.pricingCardBody .pricePlanBtn {
+	margin-top: 35px;
+	padding: 12px 26px;
+	background-color:orange;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.pricingCard:nth-child(2) .tagBox {
+	position: absolute;
+	width: 200px;
+	padding: 10px;
+	background-color:white;
+	transform: rotate(-45deg);
+	left: -63px;
+	top: 18px;
+}
+
+.pricingCard:nth-child(2) .tagBox .tag {
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+}
+/* styles.module.css */
+
+.onebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .twobox {
+    /* background: white; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .oneheading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .thirdone,
+  .mb-6,
+  .fivebox {
+    margin-bottom: 20px;
+  }
+  
+  .onelabel,
+  .twolabel {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .oneinput,
+  .gogo {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .oneinput:focus,
+  .gogo:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+  .gogo {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .forbox,
+  .sixbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .onebut {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .onebut:hover {
+    background-color: #0056b3;
+  }
+  
+  /* .onebut:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+   */

@@ -29,18 +29,20 @@
     padding: 0.5rem;
     margin-bottom: 1rem;
   }
+  .mealhead{
+    font-size: 20px;
+  }
   
-  button {
+  .mealbut {
     width: 100%;
     padding: 0.5rem 1rem;
-    background-color: #7f21eb;
-    color: #f3f3f3;
+    color: black;
     border: none;
-    font-family: "Roboto", sans-serif;
+    border-radius: 4px;
     font-size: 1rem;
   }
   
-  button:hover {
+  .mealbut:hover {
     background-color: #6c13d1;
     cursor: pointer;
   }

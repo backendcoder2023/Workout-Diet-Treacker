@@ -9,7 +9,7 @@
 .but{
     background-color: transparent;
     border: none;
-    width: 35px;
+    font-size: 15px;
   }
 .but:hover{
     border-bottom: 2px solid black;

@@ -21,7 +21,7 @@ return (
           </div>
           <div className={styles.aboutRightCol}>
             
-            <h1>Best Facilities and Experienced Trainers</h1>
+            <h1  className={styles.bighead}>Best Facilities and Experienced Trainers</h1>
             <p>Healthify is a USDA-sponsored website that offers credible information to help you make healthful eating choices.</p>
             <div className={styles.aboutStates}>
               <div className={styles.aboutState}>

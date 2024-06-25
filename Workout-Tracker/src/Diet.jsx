@@ -47,15 +47,16 @@ function Diet() {
           </div>
           <div className={styles.appDownload}>
             <div className={styles.nav}>
-              <h5 className={styles.but} onClick={handleBackClick}>Back</h5>
+              <h5 className={styles.but} 
+              onClick={handleBackClick}>Back</h5>
             </div>
-            <a className={styles.anchor} href="https://apps.apple.com/in/app/healthifyme-weight-loss-plan/id943712366">
+            <a className={styles.anchor} 
+            href="https://apps.apple.com/in/app/healthifyme-weight-loss-plan/id943712366">
               <img
                 className={styles.enteredLazyloaded}
                 src="https://www.healthifyme.com/blog/wp-content/uploads/2022/11/Appstore.png"
                 alt="app store logo"
-                width="16"
-                height="16"
+                width="16" height="16"
               />
               App Store
             </a>
@@ -79,7 +80,7 @@ function Diet() {
         <p className={styles.paara}>
           "Are you looking for the best Indian Diet Plan to lose weight? The rules are simple."
         </p>
-        <button className={styles.contactus}>Contact Us</button>
+       <a href='/contact'> <button className={styles.contactus}>Contact Us</button></a>
         <h2 className={styles.paara}>Thank You</h2>
       </div>
 
@@ -91,7 +92,7 @@ function Diet() {
       {mealData && mealData.nutrients && (
         <>
           <section className={styles.nutrients}>
-            <h1>Macros</h1>
+            <h1 className={styles.deithead}>Macros</h1>
             <ul>
               <li>Calories: {mealData.nutrients.calories.toFixed(0)}</li>
               <li>Carbohydrates: {mealData.nutrients.carbohydrates.toFixed(0)}</li>
@@ -115,7 +116,7 @@ function Diet() {
             placeholder='Calories (e.g. 2000)'
             onChange={handleChange}
           />
-          <button onClick={getMealData}>Get Daily Meal Plan</button>
+          <button className={styles.deitbut} onClick={getMealData}>Get Daily Meal Plan</button>
         </section>
       </div>
 

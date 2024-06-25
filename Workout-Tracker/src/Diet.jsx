@@ -55,8 +55,7 @@ function Diet() {
                 className={styles.enteredLazyloaded}
                 src="https://www.healthifyme.com/blog/wp-content/uploads/2022/11/Appstore.png"
                 alt="app store logo"
-                width="16"
-                height="16"
+                width="16" height="16"
               />
               App Store
             </a>

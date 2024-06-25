@@ -47,7 +47,8 @@ function Diet() {
           </div>
           <div className={styles.appDownload}>
             <div className={styles.nav}>
-              <h5 className={styles.but} onClick={handleBackClick}>Back</h5>
+              <h5 className={styles.but} 
+              onClick={handleBackClick}>Back</h5>
             </div>
             <a className={styles.anchor} href="https://apps.apple.com/in/app/healthifyme-weight-loss-plan/id943712366">
               <img

@@ -37,9 +37,9 @@ const Contact = () => {
         <div className={styles.nav}><h3 className={styles.but} onClick={handleBackClick}>Back</h3></div>
         <section className={styles.pricing} >
         <header className={styles.sectionHeader}>
-            <h3>Contact Us</h3>
-            <h1>Join Suitable Plan</h1>
-            <p>Choose your Favourate</p>
+            <h3 className={styles.headcont}>Contact Us</h3>
+            <h1 className={styles.headjoin}>Join Suitable Plan</h1>
+            <p className={styles.contpara}>Choose your Favourate</p>
         </header>
         <div className={styles.pricingContents}>
             <div className={styles.pricingCard}>

@@ -79,7 +79,7 @@ function Diet() {
         <p className={styles.paara}>
           "Are you looking for the best Indian Diet Plan to lose weight? The rules are simple."
         </p>
-        <button className={styles.contactus}>Contact Us</button>
+       <a href='/contact'> <button className={styles.contactus}>Contact Us</button></a>
         <h2 className={styles.paara}>Thank You</h2>
       </div>
 
@@ -91,7 +91,7 @@ function Diet() {
       {mealData && mealData.nutrients && (
         <>
           <section className={styles.nutrients}>
-            <h1>Macros</h1>
+            <h1 className={styles.deithead}>Macros</h1>
             <ul>
               <li>Calories: {mealData.nutrients.calories.toFixed(0)}</li>
               <li>Carbohydrates: {mealData.nutrients.carbohydrates.toFixed(0)}</li>
@@ -115,7 +115,7 @@ function Diet() {
             placeholder='Calories (e.g. 2000)'
             onChange={handleChange}
           />
-          <button onClick={getMealData}>Get Daily Meal Plan</button>
+          <button className={styles.deitbut} onClick={getMealData}>Get Daily Meal Plan</button>
         </section>
       </div>
 
